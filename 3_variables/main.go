@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	
 	//different ways to define variables
 
 	//var name string = "golang"  (1)

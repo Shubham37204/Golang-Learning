@@ -9,7 +9,7 @@ func main() {
 
 	// make(map[keyType]valueType)
 
-	//Creating a Map using Literal
+	//1. Creating a Map using Literal
 	// marks := map[string]int{
 	// 	"Math":    95,
 	// 	"Science": 88,
@@ -17,6 +17,7 @@ func main() {
 	// }
 	// fmt.Println(marks)
 
+	//2. Using the make Function
 	marks := make(map[string]int)
 
 	//Adding Elements
@@ -35,6 +36,7 @@ func main() {
 
 	//Deleting Elements
 	delete(marks, "Science")
+	//fmt.Println(marks)
 	//clear(marks)
 	fmt.Println(marks)
 

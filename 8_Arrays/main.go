@@ -22,4 +22,5 @@ func main() {
 
 	fmt.Println("names:", names)
 	fmt.Println("names length:", len(names))
+	
 }

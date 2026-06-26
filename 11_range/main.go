@@ -14,6 +14,7 @@ func main() {
 
 	// i is the index or the key
 	//num is value
+	//nums is the slice or the array or random value to iterate over
 	// for i,num:=range nums{
 	//sum += num
 	// 	fmt.Println(i,num)

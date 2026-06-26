@@ -6,20 +6,24 @@ package main
 // )
 
 func main() {
+
 	// slice -> dynamic array
 
+	//1.an empty slice
 	// var nums []int
 	// fmt.Println(nums==nil)
 	// fmt.Println(len(nums))
 
-	// nums := make([]int, 3, 5) // nums := make([]int, 0, 5)
-	// fmt.Println(nums)
-	// fmt.Println(len(nums))
-	// fmt.Println(cap(nums))
-
+	//2.Using a Slice Literal
 	// arr := []int{}
 	// arr = append(arr, 1)
 	// fmt.Println(arr)
+
+	//3.Using the make Function
+	// nums := make([]int, 3, 5) or  nums := make([]int, 0, 5)
+	// fmt.Println(nums)
+	// fmt.Println(len(nums))
+	// fmt.Println(cap(nums))
 
 	//nums := make([]int, 3, 5)
 	// nums[0] = 3
