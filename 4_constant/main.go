@@ -5,7 +5,8 @@ import "fmt"
 const age = 30
 
 func main() {
-	//defferent ways to define constant
+	//different ways to define constant
+	
 	//const age string = "golang"
 	const name = "golang"
 

@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	
 	// Integer array
 	nums := [4]int{2, 3, 4, 5}
 

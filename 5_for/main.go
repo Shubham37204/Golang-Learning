@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	//while loop  interm of for loop
+	//while loop  in terms of for loop
 	// i:=1
 	// for i<4{
 	// 	fmt.Println(i)
@@ -19,6 +19,7 @@ func main() {
 	// }
 
 	//using range in for loop
+	//3 is the total range
 	for i := range 3 {
 		fmt.Println(i)
 	}

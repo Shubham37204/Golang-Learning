@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+
 	// i := 5
 	// switch i {
 	// case 1:
@@ -17,12 +18,14 @@ func main() {
 	// 	fmt.Println("other")
 	// }
 
+
 	// switch time.Now().Weekday() {
 	// case time.Saturday, time.Sunday:
 	// 	fmt.Println("it's weekend")
 	// default:
 	// 	fmt.Println("it's workday")
 	// }
+
 
 	// type switch
 	whoAmI := func(i interface{}) {
@@ -37,5 +40,7 @@ func main() {
 			fmt.Println("other", t)
 		}
 	}
+
 	whoAmI(12)
+	
 }
