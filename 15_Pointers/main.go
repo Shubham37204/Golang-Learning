@@ -8,7 +8,7 @@ import "fmt"
 // 	fmt.Println("Inside Function:", num)
 // }
 
-//pass br refrences
+//pass by refrences
 func update(num *int) {
 	*num = 100
 }

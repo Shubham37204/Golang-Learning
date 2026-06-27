@@ -9,6 +9,17 @@ type User struct {
 	Relation string
 }
 
+//receiver type
+//This is called a method because it has a receiver.
+//Receiver (r *User) means
+// r is the receiver variable (like this in Java or self in Python).
+// *User means it receives a pointer to a User.
+//use * when to modify the struct value
+func (r *User) ChangeRelation(Relation string) {
+	r.Relation = Relation
+}
+
+
 //constructor
 func newOrder(Name string,
 	Age int,
@@ -21,15 +32,6 @@ func newOrder(Name string,
 	return &u
 }
 
-//receiver type
-//This is called a method because it has a receiver.
-//Receiver (r *User) means
-// r is the receiver variable (like this in Java or self in Python).
-// *User means it receives a pointer to a User.
-//use * when to modify the struct value
-func (r *User) ChangeRelation(Relation string) {
-	r.Relation = Relation
-}
 
 func main() {
 
